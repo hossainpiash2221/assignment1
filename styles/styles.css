@@ -1,0 +1,42 @@
+.banner {
+    background-image: url(../assets/Hero-bg.png);
+    padding: 26px 221px 44px 221px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.banner-container {
+    text-align: center;
+}
+
+.banner-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 32px;
+
+}
+
+.banner-para {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 24px;
+    padding: 0px 73px;
+
+}
+
+.btn-contact-me{
+    
+}
