@@ -55,7 +55,8 @@
 /* why web development */
 
 .why-web {
-    margin: 74px 152px 90px 148px;
+    width: 1140px;
+    margin: auto;
     padding: 80px 97px;
     border-radius: 16px;
 
@@ -144,4 +145,48 @@
 
 .why-content2 {
     margin: 10px 110px 10px 32px;
+}
+
+
+/* my inspiration part  */
+
+.inspiration-header {
+    
+    width: 852px;
+    margin: auto;
+   
+    
+
+}
+
+.inspiration-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.inspiration-title-discription {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.quick-sort {
+    margin:32px;
+   
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
