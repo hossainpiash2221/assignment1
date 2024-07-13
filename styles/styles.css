@@ -151,11 +151,12 @@
 /* my inspiration part  */
 
 .inspiration-header {
-    
+
     width: 852px;
     margin: auto;
-   
-    
+    margin-bottom: 48px;
+
+
 
 }
 
@@ -165,8 +166,8 @@
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
-    letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 24px;
 }
 
 .inspiration-title-discription {
@@ -182,11 +183,49 @@
 }
 
 .quick-sort {
-    margin:32px;
-   
+    margin: 32px;
+
     border-radius: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+
+.video {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+
+}
+
+
+/* My current target  */
+
+.current-content {
+    width: 1140px;
+    margin: auto;
+}
+
+.current-content {
+    display: flex;
+    gap: 24px;
+
+}
+
+.current-content p {
+    text-align: left;
+}
+.current-terget{
+    margin-top: 149px;
+}
+
+.current-skill {
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
 }
