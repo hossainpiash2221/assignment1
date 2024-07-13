@@ -85,6 +85,10 @@
 
 }
 
+.btn-learn-more{
+    cursor: pointer;
+}
+
 .header-info {
     text-align: center;
     padding: 0px 47px 48px;
@@ -205,6 +209,7 @@
 
 .current-content {
     width: 1140px;
+    
     margin: auto;
 }
 
@@ -217,15 +222,141 @@
 .current-content p {
     text-align: left;
 }
-.current-terget{
+
+.current-terget {
     margin-top: 149px;
 }
 
 .current-skill {
     width: 364px;
-    height: 300px;
+   
     padding: 40px;
     border-radius: 16px;
 
-    background: rgba(0, 76, 232, 0.05);
+
+}
+
+.html-bg {
+    background: rgba(190, 19, 7, 0.05);
+}
+
+.css-bg {
+    background: rgba(0, 81, 232, 0.05);
+}
+
+.javascript-bg {
+    background: rgba(161, 151, 2, 0.05);
+}
+
+
+
+/* footer  */
+
+.handshake {
+    margin: auto;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../assets/handshake.jpg");
+
+    background-position: center;
+    width: 1140px;
+    height: 320px;
+
+    border-radius: 16px;
+    padding: 70px 48px 70px 48px;
+    text-align: center;
+    margin-top: 50px;
+
+
+
+}
+
+.handshake-title {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 16px;
+    ;
+}
+
+.handshake-discription {
+    width: 606px;
+    height: 52px;
+
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+    margin-bottom: 30px;
+    opacity: 0.7;
+
+}
+
+#suggest-field {
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 19px 20px 19px 20px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+
+
+}
+
+#submit-btn {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    margin-top: 24px;
+
+}
+
+form input[type="submit"]{
+ cursor: pointer;
+}   
+
+/* footer2  */
+
+.footer2 {
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 16px;
+    align-items: center;
+    background: rgba(13, 19, 33, 0.068);
+}
+
+.footer2 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
 }
